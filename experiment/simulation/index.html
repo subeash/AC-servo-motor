@@ -13,7 +13,7 @@
     <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link href="../css/adik.css" rel="stylesheet">
+  <link href="./css/adik.css" rel="stylesheet">
   
   
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
@@ -173,7 +173,7 @@
 	   <li>Click on plus sign of 'Reference Phase' knob to provide the Reference phase voltage to 220v. the corresponding box with reference phase shows the voltage applied.This will be fixed throughout the experiment </li><br/> 
 
 	   <li>Click on the red switch to switch on the regulated DC power supply.Click on plus sign of dc supply voltage knob(just beside the switch)
-	       to increase the voltage value from 4 to 4.9 v. The motor will run with some speed.The corresponding box above the motor shows the speed value
+	       to increase the voltage value to 4.9 v. The motor will run with some speed.The corresponding box above the motor shows the speed value
 		   in rpm .At first it will run with no load speed.</li><br/>
 
 	   <li>There are weights(g) in the pink dotted box.Drag weights from that box to drop them on the blue dotted box,the 'Chosen Weight(g)' value would be shown
@@ -338,6 +338,7 @@
         <div class="col-md-5 "><!--2nd col under 3rd row start -->
           <!-- Code Start here-->
 			<div class="img-container"><!--img container div start-->
+				<span style="position:absolute;top:-8%;left:13%;color:blue;"><b>Control Phase</b></span>
 				<img class="img-fluid" id="conampset" src="images/con_amp_set.png"/>
 				<input type="number" id="conph" min="0" max="260" step="2" value="0" readonly=readonly>
 				
@@ -382,6 +383,7 @@
         <div class="col-md-5 "><!--3rd col under 3rd row start -->
           <!-- Code Start here-->
 			<div class="img-container">
+			    <span style="position:absolute;top:-5%;left:6%;color:blue;"><b>Reference Phase</b></span>
 				<img class="img-fluid" id="refphset" src="images/ref_ph_set.png "/>
 				
 				<div class="text-center" style="position:absolute;width:27%;height:7%;top:69%;left:68%;border:2px solid black;background-color:#e5e576;">
@@ -466,7 +468,7 @@
 	<div class="row my-5 gy-2"><!--- 4th row under fourth container start--->
         
         <div class="col-md-4 "><!--1st col under 4th row start -->	
-			<table id="T1" style="width:100%">
+			<table id="T1" style="width:80%">
 			
 				<tr>
 					<th colspan="5">Ec = 220v</th>
@@ -483,7 +485,7 @@
 		</div><!--1st col under 4th row end -->
 		
 		<div class="col-md-4 "><!--2nd col under 4th row start -->	
-			<table id="T2" style="width:100%">
+			<table id="T2" style="width:80%">
 			
 				<tr>
 					<th colspan="5">Ec = 200v</th>
@@ -500,7 +502,7 @@
 		</div><!--2nd col under 4th row end -->
 		
 		<div class="col-md-4 "><!--3rd col under 4th row start -->	
-			<table id="T3" style="width:100%">
+			<table id="T3" style="width:80%">
 			
 				<tr>
 					<th colspan="5">Ec = 180v</th>
@@ -574,7 +576,7 @@
 	<script>
 	////////////////////////////////////////////////////////////////////meter gauge coding////////////////////////////////////////////
 	
-	const gaugeElement = document.querySelector(".gauge");
+	/*const gaugeElement = document.querySelector(".gauge");
 
 function setGaugeValue(gauge, value) {
   if (value < 0 || value > 1) {
@@ -591,7 +593,7 @@ function setGaugeValue(gauge, value) {
 
 setGaugeValue(gaugeElement, 0.3);
 	
-	
+	*/
 	
 	
 	</script>

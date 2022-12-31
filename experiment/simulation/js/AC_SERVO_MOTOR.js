@@ -477,7 +477,7 @@ var myImage = document.getElementById('red_switch');
 	document.getElementById('speed').style.color="#2DE84F";
 	document.getElementById('conph').style.color="#2DE84F";
 	document.getElementById('refph').style.color="#2DE84F";
-	document.getElementById('A1').style.color="#2DE84F";
+	//document.getElementById('A1').style.color="#2DE84F";
 	
 	
 	document.getElementById("swheel").style["-webkit-animation-duration"] ="infinite";
@@ -524,7 +524,7 @@ else if(myImage.src.match("./images/green_switch.png")){
 		document.getElementById('speed').style.color="#2DE84F";
 		document.getElementById('conph').style.color="#2DE84F";
 		document.getElementById('refph').style.color="#2DE84F";
-		document.getElementById('A1').style.color="#2DE84F";	
+		//document.getElementById('A1').style.color="#2DE84F";	
 		
 	}
 	
@@ -533,7 +533,7 @@ else if(myImage.src.match("./images/green_switch.png")){
 	document.getElementById('speed').style.color="#A8AFB5";
 	document.getElementById('conph').style.color="#2DE84F";
 	document.getElementById('refph').style.color="#2DE84F";
-	document.getElementById('A1').style.color="#A8AFB5";	
+	//document.getElementById('A1').style.color="#A8AFB5";	
 }	 
 	 
  }
@@ -1057,8 +1057,8 @@ function table1() {//Ec = 220v
     arr1[0] = tabrowindex ;
     arr1[1] = document.getElementById("Tmassv").value;
     arr1[2] = document.getElementById("speed").value;
-    arr1[3] = arr1[2]*((2*Math.PI)/60);
-	arr1[4] = arr1[1]*1.875;
+    arr1[3] = parseFloat(arr1[2]*((2*Math.PI)/60)).toPrecision(5);
+	arr1[4] = parseFloat(arr1[1]*1.875).toPrecision(5);
 	
 	tabled1 = document.getElementById("T1");
         
@@ -1084,8 +1084,8 @@ function table2() {//Ec = 200v
     arr2[0] = tabrowindex2 ;
     arr2[1] = document.getElementById("Tmassv").value;
     arr2[2] = document.getElementById("speed").value;
-    arr2[3] = arr2[2]*((2*Math.PI)/60);
-	arr2[4] = arr2[1]*1.875;
+    arr2[3] = parseFloat(arr2[2]*((2*Math.PI)/60)).toPrecision(5);
+	arr2[4] = parseFloat(arr2[1]*1.875).toPrecision(5);
 	
 	tabled2 = document.getElementById("T2");
         
@@ -1111,8 +1111,8 @@ function table3() {//Ec = 180v
     arr3[0] = tabrowindex3 ;
     arr3[1] = document.getElementById("Tmassv").value;
     arr3[2] = document.getElementById("speed").value;
-    arr3[3] = arr3[2]*((2*Math.PI)/60);
-	arr3[4] = arr3[1]*1.875;
+    arr3[3] = parseFloat(arr3[2]*((2*Math.PI)/60)).toPrecision(5);
+	arr3[4] = parseFloat(arr3[1]*1.875).toPrecision(5);
 	
 	tabled3 = document.getElementById("T3");
         

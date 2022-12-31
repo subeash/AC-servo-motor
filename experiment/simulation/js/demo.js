@@ -58,7 +58,7 @@ jsPlumb.ready(function () {
 	// for all live red connection//
         endpoint = {
             anchors: [0.5, 0.5, 0, -1],
-            connectorStyle: { strokeWidth: 8, stroke: "#C50806" },
+            connectorStyle: { strokeWidth: 3, stroke: "#C50806" },
             endpointsOnTop: true,
             isSource: true,
             maxConnections: 100,
@@ -75,7 +75,7 @@ jsPlumb.ready(function () {
 			//for lamp connection//
  endpoint1 = {
             anchor: [0.5, 0.5, 0, -1],
-            connectorStyle: { strokeWidth: 8, stroke: "#1684F8" },
+            connectorStyle: { strokeWidth: 3, stroke: "#1684F8" },
             endpointsOnTop: true,
             isSource: true,
             maxConnections: 100,
@@ -93,7 +93,7 @@ jsPlumb.ready(function () {
 					
 				endpoint2 = {
             anchor: [0.5, 0.5, 0, -1],
-            connectorStyle: { strokeWidth: 8, stroke: "#F8DD16" },
+            connectorStyle: { strokeWidth: 3, stroke: "#F8DD16" },
             endpointsOnTop: true,
             isSource: true,
             maxConnections: 100,
@@ -111,7 +111,7 @@ jsPlumb.ready(function () {
 					
 				endpoint3 = {
             anchor: [0.5, 0.5, 0, -1],
-            connectorStyle: { strokeWidth: 8, stroke: "#1BBD4C" },
+            connectorStyle: { strokeWidth: 3, stroke: "#1BBD4C" },
             endpointsOnTop: true,
             isSource: true,
             maxConnections: 100,
@@ -146,7 +146,7 @@ jsPlumb.ready(function () {
     instance = jsPlumb.getInstance({
         DragOptions: { cursor: 'wait', zIndex: 20 },
         Endpoint: [ "Image", { url: "./images/littledot.png" } ],
-        Connector: [ "Bezier", { curviness:-80 } ],
+        Connector: [ "Bezier", { curviness:-90 } ],
         Container: "canvas"
     });
 	
