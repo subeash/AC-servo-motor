@@ -56,27 +56,27 @@ $T_{L}$ 	= 	load torque
 
 $$K = \frac{\partial{T_{m}}}{\partial{E}}\vert\dot{\theta}_{0}E_{0}\dot{\theta}$$
 
-$f_{0}=\frac{\partial{T_{m}}}{\partial{\dot{\theta}}}\vert\dot{\theta}_{0}E_{0}$
+$$f_{0}=\frac{\partial{T_{m}}}{\partial{\dot{\theta}}}\vert\dot{\theta}_{0}E_{0}$$
 
 Then we can write the following equations 
 
-$T_{m0}=J\partial{\ddot{\theta}_{0}}+f\partial{\dot{\theta}_{0}}+T_{L}$
+$$T_{m0}=J\partial{\ddot{\theta}_{0}}+f\partial{\dot{\theta}_{0}}+T_{L}$$
 
-$T_{m}= J({\ddot{\theta}_{0}}+\Delta{\ddot{\theta}})+f({\dot{\theta}_{0}}+\Delta{\dot{\theta}})T_{L}$
+$$T_{m}= J({\ddot{\theta}_{0}}+\Delta{\ddot{\theta}})+f({\dot{\theta}_{0}}+\Delta{\dot{\theta}})T_{L}$$
 
 In view of (1) – (3), the torque equation in incremental notation can be written as:
 
-$\Delta{T_{m}} =J\Delta{\ddot{\theta}}+ f\Delta{\dot{\theta}}=K\Delta{E}-f_{0}\Delta{\dot{\theta}} $
+$$\Delta{T_{m}} =J\Delta{\ddot{\theta}}+ f\Delta{\dot{\theta}}=K\Delta{E}-f_{0}\Delta{\dot{\theta}} $$
 
 Hence, the incremental motor transfer function is:
 
-$G_{M}(s)=\frac{\theta(s)}{E(s)}=\frac{K}{S[Js+(f+f_{0})]}$
+$$G_{M}(s)=\frac{\theta(s)}{E(s)}=\frac{K}{S[Js+(f+f_{0})]}$$
 
-$=\frac{K_{m}}{s(T_{m}s+1)}$
+$$=\frac{K_{m}}{s(T_{m}s+1)}$$
 
 where,
 
-$K_{m}=\frac{K}{f+f_{0}}, T_{m}= \frac{J}{f+f_{0}}$
+$$K_{m}=\frac{K}{f+f_{0}}, T_{m}= \frac{J}{f+f_{0}}$$
 
-k<sub>m</sub> = DC gain of the system , T<sub>m</sub> = Motor Time Constant							
+$k_{m}$ = DC gain of the system , $T_{m}$= Motor Time Constant							
 								
