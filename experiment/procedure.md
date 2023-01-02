@@ -9,7 +9,6 @@
 
 
 1. The connections should be made as per the circuit diagram above, in simulation page there are blue dots to connect instruments or machines through wires within the experimental set up. Make those connections as follows(x-y,drag connecting wire from point x and drop on point y):
-
 1-12,2-11,7-6,8-5,4-35,14-31,32-18,33-22,34-23,15-19,19-23,16-25,20-26,27-24,28-23,38-23.
 
 2. Click on 'Check Connection' button to check whether the connections are proper or not. If alert comes as 'wrong connection' ,review the connections made and click on the incorrectly connected wire to delete it.
