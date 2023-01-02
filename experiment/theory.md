@@ -4,9 +4,9 @@
 Servomotors ( control motors) are motors which are designed and built for use in feedback control systems. 
 They have high speed of response and they are made for d.c. as well as for a.c. operation. These motors usually fractional horsepower motors having low efficiency.
 
-<center>
+<div align="center">
 <img alt="" src="./images/ckt.png" style="width:400px;height:300px;">
-</center>
+</div>
 
 **Two-phase servomotors:**
 
@@ -20,17 +20,17 @@ The two phase induction motor is the most important machine which is used as a s
 
 **Construction:**
 
-<center>								
+<div align="center">								
 <img class="center" alt="" src="./images/const.png" style="width:400px;height:300px;">
-</center>
+</div>
 
 **Stator:**
 
 The stator is similar to that of the split-phase induction motor. It has two windings called control winding and reference winding displaced by 90 electrical angle with each other.The two windings may be identical or not depending on the applications.
 
-<center>                
+<div align="center">                
 <img  alt="" src="./images/rotor.png" style="width:400px;height:300px;">
-</center>
+</div>
 
 **Rotor:**
 
@@ -44,9 +44,9 @@ The drag-cup rotor consists of a cup of a nonmagnetic conducting material such a
 This rotor is used for low output motors (few watts) in order to minimize the moment of inertia.
 The drag-cup rotor can be described as a special from of squirral-cage rotor in which the rotor teeth are removed,the rotor core is held stationary and the squirral cage bars and the end rings are replaced by a cylinderical cup.
 
-<center>
+<div align="center">
 <img alt="" src="./images/eq1.png" style="width:400px;height:300px;">
-</center>	
+</div>	
 
 Let us choose($\dot{\theta}_{0},E_{0}$)be the operating point of the ac motor and consequently expanding the function f(……) about this point we have.
 
