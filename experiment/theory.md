@@ -54,7 +54,7 @@ F 	=	coefficient of viscous friction
 
 $T_{L}$ 	= 	load torque
 
-$K = \frac{\partial{T_{m}}}{\partial{E}}\vert\dot{\theta}_{0}E_{0}\dot{\theta}$
+$$K = \frac{\partial{T_{m}}}{\partial{E}}\vert\dot{\theta}_{0}E_{0}\dot{\theta}$$
 
 $f_{0}=\frac{\partial{T_{m}}}{\partial{\dot{\theta}}}\vert\dot{\theta}_{0}E_{0}$
 
