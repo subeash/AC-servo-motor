@@ -84,5 +84,6 @@ where,
 
 $$K_{m}=\frac{K}{f+f_{0}}, T_{m}= \frac{J}{f+f_{0}}$$
 
-$k_{m}$ = DC gain of the system , $T_{m}$= Motor Time Constant							
+$k_{m}$ = DC gain of the system , $T_{m}$= Motor Time Constant	
+						
 <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>								
