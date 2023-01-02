@@ -48,7 +48,7 @@ The drag-cup rotor can be described as a special from of squirral-cage rotor in 
 <img alt="" src="./images/eq1.png" style="width:400px;height:300px;">
 </div>	
 
-Let us choose($\dot{\theta}_{0},E_{0}$)be the operating point of the ac motor and consequently expanding the function f(……) about this point we have.
+$$ Let \ us \ choose (\dot{\theta}_0,E_0) \ be \ the \ operating \ point \ of \ the \ ac \ motor \ and \ consequently \ expanding \ the \ function \ f(……) \ about \ this \ point \ we \ have. $$
 
 $$T_{m}=T_{m0}+\frac{\partial{T_{m}}}{\partial{E}}\vert\dot{\theta}_{0}E_{0}(E-E_{0})+\frac{\partial{T_{m}}}{\partial{\dot{\theta}}}\vert\dot{\theta}_{0}E_{0}(\dot{\theta}-\dot{\theta}_{0}).......(1)$$   
 
