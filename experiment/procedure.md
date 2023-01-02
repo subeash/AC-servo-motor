@@ -14,7 +14,7 @@
 	   <li> Click on plus sign of 'Control Phase' knob to provide the control phase voltage to 220v. the corresponding box with control phase shows the voltage applied.</li></br>
 	   <li>Click on plus sign of 'Reference Phase' knob to provide the Reference phase voltage to 220v. the corresponding box with reference phase shows the voltage applied.This will be fixed throughout the experiment </li><br/> 
 	   <li>Click on the red switch to switch on the regulated DC power supply.Click on plus sign of dc supply voltage knob(just beside the switch)
-	       to increase the voltage value from 4 to 4.9 v. The motor will run with some speed.The corresponding box above the motor shows the speed value
+	       to increase the voltage value to 4.9 v. The motor will run with some speed.The corresponding box above the motor shows the speed value
 		   in rpm .At first it will run with no load speed.</li><br/>
 	   <li>There are weights(g) in the pink dotted box.Drag weights from that box to drop them on the blue dotted box,the 'Chosen Weight(g)' value would be shown
 	        in a box.The weight must be chosen as follows: start with 20,40,50,70,100,120,140,160,180,200.More than one weight may be needed to make the total weight as said above. </li></br>
